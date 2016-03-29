@@ -31,6 +31,10 @@ If run without any argument, `slaidsciou` will quietly run in background.
 
 You can run it with the `-foreground` switch for debug purposes, but who cares?
 
+To start it with GNOME Shell, you have to copy `slaidsciou.desktop` to `~/.local/share/applications`, modifying the `Exec` directive according to where your `$GOPATH/bin` is.
+
+After that, just add it to the autostart list using GNOME Tweak Tool.
+
 ## Why in Go?
 
 Why not?
